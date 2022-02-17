@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Monserrat", sans-serif;
+}
+
+.hero {
+  background-image: url("https://www.tuexperto.com/wp-content/uploads/2018/04/zorro-nieve.jpg");
+  background-size: cover;
+  color: white;
+  height: 150vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.fl-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fl-centerh {
+  justify-content: center;
+}
+
+.fl-centerv {
+  align-items: center;
+}
+
+.works {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.works img {
+  width: 700px;
+}
